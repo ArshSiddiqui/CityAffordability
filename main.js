@@ -1,3 +1,6 @@
+//main.js
+
+// FOR THE CUSTOM POINTER
 const customPointer = document.getElementById("custom-pointer");
 let pointerX;
 let pointerY;
