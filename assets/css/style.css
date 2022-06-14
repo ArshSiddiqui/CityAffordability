@@ -1,8 +1,10 @@
 body{
-	background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: none;
+  overflow: hidden;
 }
 
 body > * + * {
@@ -90,6 +92,24 @@ select {
 
 
 
+/* -------------------------CUSTOM POINTER BEGINNING------------------------- */
+.custom-pointer {
+  position: fixed;
+  top: -5px;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: grey;
+  box-shadow: 0 0 0 5px #2a2a2a, 0 0 0 6px grey;
+  transition: 100ms;
+}
+
+
+/* -------------------------CUSTOM POINTER END------------------------- */
+
+
+
 /* -------------------------CAROUSEL BEGINNING------------------------- */
 .carousel {
     overflow: auto;
@@ -100,10 +120,25 @@ select {
 }
 
 .carousel .item {
-    height: 200px;
-    width: 200px;
-    background: red;
+    height: 30rem;
+    width: 50rem;
+    background: black;
     margin-right: 5px;
     flex-shrink: 0;
     scroll-snap-align: start;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* -------------------------CAROUSEL END------------------------- */
+
+/* -------------------------CAROUSEL ITEMS BEGINNING------------------------- */
+
+.London {
+  background-image: url("../pics/london.jpg") !important;
+  background-size: cover !important;
 }
