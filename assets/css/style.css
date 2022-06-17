@@ -1,5 +1,5 @@
 body{
-  background-color: #2a2a2a;
+  background-color: #081c15;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,8 +100,8 @@ select {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: grey;
-  box-shadow: 0 0 0 5px #2a2a2a, 0 0 0 6px grey;
+  background-color: #74c69d;
+  box-shadow: 0 0 0 5px #081c15, 0 0 0 6px #74c69d;
   transition: 100ms;
 }
 
@@ -121,7 +121,7 @@ select {
 
 /* -------------------------TITLE BEGINNING------------------------- */
 .title {
-  color: white;
+  color: #84a98c;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 3rem;
   margin-top: 1rem;
@@ -135,7 +135,7 @@ select {
   width: 100%;
   height: 4px;
   border-radius: 4px;
-  background-color: wheat;
+  background-color: #84a98c;
   bottom: 0;
   left: 0;
   transform-origin: right;
@@ -177,28 +177,17 @@ select {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #cad2c5;
     font-family: SportingGrotesque;
     font-size: 8rem;
+    transition: 2s;
 }
 
-.item::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 1rem;
-  border-radius: 1rem;
-  background-color: #2a2a2a;
-  bottom: 26rem;
-  left: 0;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform .3s ease-in-out;
-}
-
-.item:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
+.item:hover {
+  border-style: solid;
+  border-color: #cad2c5;
+  border-width: 2rem;
+  transition: 2s;
 }
 
 /* -------------------------CAROUSEL END------------------------- */
@@ -206,6 +195,11 @@ select {
 /* -------------------------CAROUSEL ITEMS BEGINNING------------------------- */
 
 .London {
-  background-image: url("../pics/london.jpg") !important;
+  background-image: url("../../Cities/London/pictures/ben.jpg") !important;
   background-size: cover !important; 
+  color: #2d6a4f !important;
+}
+
+.London:hover {
+  border-color: #2d6a4f !important;
 }
