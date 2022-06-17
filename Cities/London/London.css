@@ -2,6 +2,9 @@ body{
     background-color: #001219;
     cursor: none;
     overflow: hidden;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
   }
   
   body > * + * {
@@ -188,5 +191,5 @@ body{
     background-image: url('./pictures/arboretum.jpg');
     height: 25rem;
     width: 38rem;
-    margin-left: 50rem;
+    margin-left: 45rem;
 }
