@@ -72,10 +72,9 @@ require([
     const colorParams = {
         layer: layer,
         view: view,
-        field: "CNSTRCT_YR",
-        theme: "above-and-below",
-        minValue: 1800,
-        maxView: 2020,
+        field: "HEIGHTROOF",
+        minValue: 100,
+        maxView: 700,
         edgesType: "solid"  
     };
 
