@@ -1,29 +1,33 @@
 <!DOCTYPE html>
-
 <html>
+	<head>
+	
+		<title>New York City</title>
+		
+		<link rel="stylesheet" href="NewYork.css">
+		
+	</head>
+	
+	<body>
+	
+		<center><p class="title" onclick="window.location.href = '../../index.html'">New York</br></p></center>
 
-    <head>
+		<div class="custom-pointer" id="custom-pointer"></div>
 
-        <meta charset="utf-8" />
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="./NewYork.css" />
-        <title> New York City </title>
+		<script src="../../main.js"></script>
 
-        <link rel="stylesheet" href="https://js.arcgis.com/4.23/esri/themes/light/main.css">
-        <script src="https://js.arcgis.com/4.23/"></script>
-
-        <script src="NewYork.js"></script>
-
-    </head>
-
-    <body>
-
-        <div id="viewDiv"></div>
-        <div id="containerDiv">
-            <span id="title" class="esri-widget">Construction Year</span>
-            <div id="slider"></div>
+        <div class="box" onclick="window.location.href = './CityModel/NewYorkModel.html'">
+            <div class="subtitle">Multiple Deprivation in London</div>
+            <div class="desc">Multiple deprivation is used to measure the relative deprivation of small
+                            areas. Deprivation is measured according to many factors, including income, 
+                            employment, education, health, crime, barriers to housing/services, and the
+                            living environment. It is essentially a measure of poverty, where the higher
+                            the number is, the worse off that location would be.<br><br> 
+            </div>
         </div>
 
-    </body>
-
+        <img class="image" src="./pictures/redbrown.jpg"></div>
+		
+	</body>
+  
 </html>

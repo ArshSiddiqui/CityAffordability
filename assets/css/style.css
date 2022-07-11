@@ -203,3 +203,13 @@ select {
 .London:hover {
   border-color: #2d6a4f !important;
 }
+
+.NYC {
+  background-image: url("../pics/nyc.jpg") !important;
+  background-size: cover !important; 
+  color: #023047 !important;
+}
+
+.NYC:hover {
+  border-color: #023047 !important;
+}
