@@ -180,14 +180,14 @@ select {
     color: #cad2c5;
     font-family: SportingGrotesque;
     font-size: 8rem;
-    transition: 2s;
+    transition: 1s;
 }
 
 .item:hover {
   border-style: solid;
   border-color: #cad2c5;
   border-width: 2rem;
-  transition: 2s;
+  transition: 1s;
 }
 
 /* -------------------------CAROUSEL END------------------------- */
